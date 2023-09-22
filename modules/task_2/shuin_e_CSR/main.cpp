@@ -1,7 +1,7 @@
 // Copyright 2023 Shuin Evgeniy
 #include <gtest/gtest.h>
 #include <vector>
-#include "../../../modules/task_1/shuin_e_CSR/SparseMatrixCSR.h"
+#include "../../../modules/task_2/shuin_e_CSR/SparseMatrixCSR.h"
 
 TEST(SparseMatrixCSRTest, test_size_100_200) {
     SparseMatrixCSR matrixA(100, 200, 10);
