@@ -24,7 +24,7 @@ SparseMatrixCSR::SparseMatrixCSR(int rows, int cols, int density)
 }
 
 void SparseMatrixCSR::ConvertToCSR(const std::vector<double>& matrix) {
-	 int nnz = 0;
+    int nnz = 0;
     row_ptrs_.push_back(0);
 
     for (int i = 0; i < rows_; ++i) {
